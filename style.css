@@ -1,0 +1,147 @@
+* {
+  color: white;
+}
+
+body {
+  background-color: #141414;
+}
+
+section.hasan {
+  width: 18%;
+  height: 100vh;
+  border-right: 1px solid lightgray;
+}
+
+section.hasan .navbar-brand {
+  width: 6em;
+}
+
+section.hasan ul.one {
+  height: 300px;
+  width: 150px;
+}
+
+section.hasan ul.one li {
+  width: 100%;
+  padding: 0px 10px;
+  border-radius: 20px;
+}
+
+section.hasan ul.one .active {
+  background-color: gray;
+}
+
+section.hasan ul.two {
+  height: 250px;
+  width: 150px;
+}
+
+section.hasan ul.two li {
+  width: 100%;
+  padding: 0px 10px;
+  border-radius: 20px;
+}
+
+.right {
+  width: 100%;
+  height: 100vh;
+}
+
+.right nav ul {
+  list-style-type: none;
+}
+
+.right nav ul li a {
+  border-radius: 20px;
+}
+
+.right nav .custom {
+  display: inline-block;
+  transform: translateX(30px);
+}
+
+.right nav input {
+  background-color: gray;
+  border-radius: 20px;
+  border: none;
+}
+
+.right nav ::placeholder {
+  padding-left: 30px;
+  color: white;
+}
+
+.right .bigBox {
+  height: calc(50% - 56px);
+}
+
+.right .bigBox .one {
+  width: 80%;
+  height: 100%;
+  border-radius: 20px 0px 0px 20px;
+  position: relative;
+}
+
+.right .bigBox .one .text {
+  width: 90%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 2em;
+}
+
+.right .bigBox .one .text button {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.right .bigBox .two {
+  width: 20%;
+  height: 100%;
+  border-radius: 0px 20px 20px 0px;
+  background-color: #383232;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.right .bigBox .two .box {
+  height: calc(100% / 6);
+}
+
+.right .bigBox .two .box span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 13px;
+}
+
+.right .secondBigBox {
+  height: calc(50% - 40px);
+  display: flex;
+  flex-direction: column;
+}
+
+.right .secondBigBox .one {
+  width: 100%;
+  height: 15%;
+}
+
+.right .secondBigBox .one .icons i {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.right .secondBigBox .two {
+  width: 100%;
+  height: 80%;
+}
+
+.right .secondBigBox .two .Card {
+  width: calc(100% / 5);
+  height: 100%;
+}
+
+.right .secondBigBox .two .Card p {
+  font-size: 14px;
+}
+/*# sourceMappingURL=style.css.map */
