@@ -179,12 +179,15 @@ section.hasan ul.two li {
   .right .bigBox .one {
     width: 100%;
     height: 55%;
+    margin-bottom: 7px;
     position: relative;
   }
   .right .bigBox .one .text {
-    width: 100%;
+    top: 10px;
+    width: 90%;
   }
   .right .bigBox .two {
+    border-radius: 20px;
     width: 100%;
     height: 40%;
     display: flex;
