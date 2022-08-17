@@ -25,7 +25,7 @@
   </head>
   <body>
     <div class="something d-flex">
-      <section class="nothing hasan d-none d-md-block">
+      <section class="nothing hasan d-none d-lg-block">
         <nav class="navbar navbar-expand-md navbar-dark p-4">
           <div
             class="d-flex flex-column justify-content-center align-items-center"
@@ -112,6 +112,108 @@
           class="py-3 pb-0 d-flex align-items-center justify-content-between"
         >
           <ul class="d-flex">
+            <li class="d-lg-none d-block">
+              <img
+                class="btn text-primary"
+                data-bs-toggle="offcanvas"
+                href="#offcanvasExample"
+                role="button"
+                aria-controls="offcanvasExample"
+                src="./img/gamestore/logo.png"
+                alt="Logo"
+              />
+              <div
+                class="offcanvas offcanvas-start bg-dark"
+                tabindex="-1"
+                id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel"
+              >
+                <div class="offcanvas-header">
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <nav class="navbar customNav navbar-dark p-4">
+                  <div
+                    class="
+                      d-flex
+                      flex-column
+                      justify-content-center
+                      align-items-center
+                    "
+                  >
+                    <div
+                      class="
+                        navbar-brand
+                        d-flex
+                        align-items-center
+                        justify-content-center
+                        py-1
+                      "
+                    ></div>
+                    <div class="collapse d-flex flex-column" id="navbarNav">
+                      <ul
+                        class="
+                          one
+                          navbar-nav
+                          d-flex
+                          flex-column
+                          justify-content-evenly
+                          align-items-start
+                        "
+                      >
+                        <li class="nav-item d-flex align-items-center">
+                          <img src="./img/gamestore/Vector.png" alt="" />
+                          <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center active">
+                          <img src="./img/gamestore/Vector2.png" alt="" />
+                          <a class="nav-link" href="#">Store</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                          <img src="./img/gamestore/Vector3.png" alt="" />
+                          <a class="nav-link" href="#">Library</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                          <img src="./img/gamestore/Vector4.png" alt="" />
+                          <a class="nav-link" href="#">Friends</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                          <img src="./img/gamestore/Vector5.png" alt="" />
+                          <a class="nav-link" href="#">Live</a>
+                        </li>
+                      </ul>
+                      <ul
+                        class="
+                          two
+                          navbar-nav
+                          d-flex
+                          flex-column
+                          justify-content-end
+                        "
+                      >
+                        <li class="nav-item d-flex align-items-center">
+                          <img src="./img/gamestore/Vector6.png" alt="" />
+                          <a class="nav-link" href="#">Downloads</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                          <img src="./img/gamestore/Vector7.png" alt="" />
+                          <a class="nav-link" href="#">Settings</a>
+                        </li>
+
+                        <li class="nav-item d-flex align-items-center">
+                          <img src="./img/gamestore/Ellipse 1.png" alt="" />
+                          <a class="nav-link" href="#">Tung Tran</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </li>
             <li><a href="#" class="btn btn-primary">Discover</a></li>
             <li><a href="#" class="btn text-white">Browse</a></li>
             <li><a href="#" class="btn text-white">Wishlist</a></li>
@@ -128,7 +230,7 @@
             />
           </ul>
         </nav>
-        <div class="bigBox d-sm-flex justify-content-center">
+        <div class="bigBox d-md-flex justify-content-center">
           <div class="one me-1">
             <img
               height="100%"
@@ -137,9 +239,9 @@
               alt="main img"
             />
             <div class="text d-flex flex-column justify-content-end">
-              <h4 class="my-5 py-4">Fortnite</h4>
+              <h4 class="my-2 py-4">Fortnite</h4>
               <p class="my-1">Update</p>
-              <h5 class="my-1">
+              <h5 style="width: 60%" class="my-1">
                 The hunt is on in Fortnite Chapter 2 - Season5:Zero Point.
               </h5>
               <button class="btn btn-primary my-4 py-2">
